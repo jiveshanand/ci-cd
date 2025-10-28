@@ -6,4 +6,5 @@ app.get("/", (req, res) => {
   res.send("🎉 CI/CD Demo: Hello from GitHub Actions!");
 });
 
+console.log("Starting server...");
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
